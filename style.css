@@ -33,6 +33,25 @@ font-size:24px;
 font-weight:700;
 color:#1b5e20;
 }
+ small{
+	font-size:18px;font-weight:700px;color:#1b5e20;
+}
+
+@media(max-width:600px){
+	.logo{
+width:70px;
+}
+
+.org-name{
+font-size:16px;
+font-weight:700;
+color:#1b5e20;
+}
+ small{
+	font-size:12px;font-weight:700px;color:#1b5e20;
+}
+	
+}
 
 /* NAVBAR */
 
