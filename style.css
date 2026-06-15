@@ -4,9 +4,11 @@ padding:0;
 box-sizing:border-box;
 }
 
-body{
-font-family:'Segoe UI',sans-serif;
-}
+body,html{
+    margin:0;
+    padding:0;
+	  height:100%;
+  }
 
 /* TOP BAR */
 
@@ -39,16 +41,16 @@ color:#1b5e20;
 
 @media(max-width:600px){
 	.logo{
-width:50px;
+width:70px;
 }
 
 .org-name{
-font-size:14px;
+font-size:16px;
 font-weight:700;
 color:#1b5e20;
 }
  small{
-	font-size:10px;font-weight:700px;color:#1b5e20;
+	font-size:12px;font-weight:700px;color:#1b5e20;
 }
 	
 }
@@ -541,15 +543,15 @@ IMPACT SECTION
 }
 
 
-```css
+
 /* ==========================
 GALLERY SECTION
 ========================== */
 
 .gallery-section{
 
-    padding:100px 0;
-    background-color:yellow;
+    padding:50px 0;
+    1background-color:yellow;
 }
 
 /* TITLE */
@@ -676,7 +678,6 @@ GALLERY SECTION
 }
 
 
-```css
 /* ======================
 FOOTER
 ====================== */
